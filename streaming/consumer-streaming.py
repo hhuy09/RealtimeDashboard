@@ -27,7 +27,7 @@ def sendPartition(iter):
         bootstrap_servers=['localhost:9092'],
         value_serializer=lambda x: dumps(x).encode('utf-8'))
     for record in iter:
-        data = '{' + '"bike_name":"' + record[0] + '","total":' + str(record[1]) + ',"date_time":"' + record[2] + '"}'
+        data = '{' + '"product_name":"' + record[0] + '","total":' + str(record[1]) + ',"date_time":"' + record[2] + '"}'
         producer.send('Second_Topic', value = data)
     producer.close()
 
