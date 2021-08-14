@@ -8,19 +8,31 @@ Create topics: Fisrt_Topic & Second_Topic
 2. kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic Second_Topic
 ## Python 3.6.8
 Package         Version
---------------- -------
+------------    -------
 findspark       1.4.2
+
 kafka           1.3.5
+
 kafka-python    2.0.2
+
 pip             18.1
+
 psutil          5.8.0
+
 py4j            0.10.7
+
 pyparsing       2.4.7
+
 pyspark         2.4.6
+
 python-dateutil 2.8.2
+
 pytz            2021.1
+
 setuptools      40.6.2
+
 six             1.16.0
+
 ## Nodejs
 npm init
 
