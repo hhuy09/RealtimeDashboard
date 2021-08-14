@@ -1,6 +1,6 @@
 "# RealtimeDashboard" 
 ![image](https://user-images.githubusercontent.com/53387573/129353303-74c09a2a-c5ad-441e-8624-14db652917d8.png)
-## OS: Wndowns
+## OS: Windowns
 ## Apache Spark spark-2.3.2-bin-hadoop2.6 (Spark Streaming)
 ## Apache Kafka kafka_2.12-2.8.0
 Create topics: Fisrt_Topic & Second_Topic
