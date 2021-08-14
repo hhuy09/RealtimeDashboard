@@ -166,10 +166,9 @@
                     }  
                     console.log("====================");
                     console.log(data)
-                    console.log(data.bike_name);
+                    console.log(data.product_name);
                     console.log(data.total);
                     console.log(data.date_time);
-                    console.log("--------------------")
                     
                     if (data.product_name === "Romano") {
                         chart.series[0].addPoint([(new Date()).getTime(), data.total], true, true);
@@ -195,7 +194,6 @@
                         chart.series[4].addPoint([(new Date()).getTime(), data.total], true, true);
                         chart.redraw();
                     }
- 
  
                 });
             });
