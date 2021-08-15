@@ -50,6 +50,7 @@ npm install --save kafka-node
 3. Submit consumer-streaming.py: spark-submit --master local[2] --packages org.apache.spark:spark-streaming-kafka-0-8_2.11:2.2.0 ...\consumer-streaming.py
 4. Run node: nodemon server-kafka.js 
 5. Access localhost:xxxx
+6. Run producer.py
 
 ![image](https://user-images.githubusercontent.com/53387573/129433052-2ccbafa9-248d-4819-bc51-50dc2b439679.png)
 
